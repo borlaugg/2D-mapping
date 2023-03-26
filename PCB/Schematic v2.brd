@@ -160,6 +160,8 @@
 <wire x1="42.398" y1="1.524" x2="42.398" y2="65.202" width="0" layer="20"/>
 <wire x1="42.398" y1="65.202" x2="0.254" y2="65.202" width="0" layer="20"/>
 <wire x1="0.254" y1="65.202" x2="0.254" y2="1.524" width="0" layer="20"/>
+<dimension x1="0.254" y1="65.202" x2="0.254" y2="1.524" x3="45.72" y3="33.363" textsize="1.778" layer="1"/>
+<dimension x1="0.254" y1="1.524" x2="42.398" y2="1.524" x3="21.326" y3="-1.778" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="Connector">

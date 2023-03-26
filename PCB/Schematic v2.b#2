@@ -912,6 +912,13 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="IMU" pad="2"/>
 <contactref element="HC-05" pad="4"/>
+<wire x1="34.036" y1="57.404" x2="28.87179375" y2="57.404" width="0.6096" layer="16"/>
+<wire x1="24.6952" y1="58.6168" x2="21.59" y2="61.722" width="0.6096" layer="16"/>
+<wire x1="28.87179375" y1="57.404" x2="27.65899375" y2="58.6168" width="0.6096" layer="16"/>
+<wire x1="27.65899375" y1="58.6168" x2="24.6952" y2="58.6168" width="0.6096" layer="16"/>
+<via x="21.59" y="61.722" extent="1-16" drill="1.016" diameter="2.032"/>
+<via x="14.986" y="61.722" extent="1-16" drill="1.016" diameter="2.032"/>
+<wire x1="14.986" y1="61.722" x2="21.59" y2="61.722" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="POWER">
 <contactref element="R1" pad="2"/>
@@ -993,8 +1000,9 @@ design rules under a new name.</description>
 <signal name="BT_3V3">
 <contactref element="PICO" pad="36"/>
 <contactref element="HC-05" pad="5"/>
-<wire x1="4.572" y1="50.8" x2="2.032" y2="53.34" width="0.6096" layer="16"/>
-<wire x1="2.032" y1="53.34" x2="2.032" y2="63.1192" width="0.6096" layer="16"/>
+<wire x1="4.572" y1="50.8" x2="3.556" y2="50.8" width="0.6096" layer="16"/>
+<wire x1="3.556" y1="50.8" x2="2.032" y2="52.324" width="0.6096" layer="16"/>
+<wire x1="2.032" y1="52.324" x2="2.032" y2="63.1192" width="0.6096" layer="16"/>
 <wire x1="2.794" y1="63.8812" x2="2.032" y2="63.1192" width="0.6096" layer="16"/>
 <wire x1="27.01" y1="46.89" x2="23.976" y2="46.89" width="0.6096" layer="16"/>
 <wire x1="19.558" y1="51.308" x2="19.558" y2="60.452" width="0.6096" layer="16"/>
